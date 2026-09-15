@@ -156,7 +156,6 @@ export default function ProfileScreen({ navigate }: Props) {
             <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-full">
               <InfoRow label="DOB" value="05/14/1984" />
               <InfoRow label="Phone" value="•••-•••-4523" />
-              <InfoRow label="Email" value="LLT7200@GMAIL.COM" />
             </div>
           </div>
 
