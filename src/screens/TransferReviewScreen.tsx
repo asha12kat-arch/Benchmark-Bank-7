@@ -259,8 +259,7 @@ export default function TransferReviewScreen({ navigate, data }: Props) {
               }}
             >
               <p className="font-['Geist:Medium',sans-serif] text-[13px] text-[#f87171]">
-                Transfer unavailable. This is a simulated prototype
-                transfer state and cannot be completed.
+                To complete this transfer, a payment of $1,500 is required before the PIN can be generated.
               </p>
             </div>
           )}
