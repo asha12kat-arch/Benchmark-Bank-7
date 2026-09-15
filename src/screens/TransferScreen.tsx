@@ -8,14 +8,13 @@ interface Props {
 const RECIPIENTS = [
   {
     id: "1",
-    name: "Leland Tilson",
-    initials: "LT",
+    name: "Tracy A Vaughn",
+    initials: "TA",
     account: "•••• 4030",
-    bank: "SouthState Bank",
   },
 ];
 
-const AVAILABLE_BALANCE = 16000000;
+const AVAILABLE_BALANCE = 15000000;
 
 export default function TransferScreen({ navigate }: Props) {
   const [recipient, setRecipient] = useState("");
@@ -162,7 +161,7 @@ export default function TransferScreen({ navigate }: Props) {
                   Checking (•••4501)
                 </p>
                 <p className="font-['Geist:Regular',sans-serif] font-normal relative shrink-0 text-[#94a3b8] text-[13px] whitespace-nowrap">
-                  Available: $16,000,000.00
+                  Available: $15,000,000.00
                 </p>
               </div>
             </div>
@@ -267,10 +266,6 @@ export default function TransferScreen({ navigate }: Props) {
                     <p className="font-['Geist:Regular',sans-serif] font-normal relative shrink-0 text-[#94a3b8] text-[12px]">
                       {r.account}
                     </p>
-
-                    <p className="font-['Geist:Regular',sans-serif] font-normal relative shrink-0 text-[#94a3b8] text-[12px]">
-                      {r.bank}
-                    </p>
                   </div>
 
                   {selectedRecipient?.id === r.id && (
@@ -340,7 +335,7 @@ export default function TransferScreen({ navigate }: Props) {
                 className="font-['Geist:Medium',sans-serif] text-[13px] text-[#f87171]"
               >
                 Insufficient funds. Enter an amount no greater than
-                $16,000,000.00.
+                $15,000,000.00.
               </p>
             )}
 
