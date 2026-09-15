@@ -79,40 +79,57 @@ export default function ProfileScreen({ navigate }: Props) {
 
           {/* Avatar + Name */}
           <div className="content-stretch flex flex-col gap-[12px] items-center p-[16px] relative shrink-0 w-full">
-            {/* Avatar placeholder */}
             <div className="relative rounded-[40px] shrink-0 size-[80px]">
               <div className="absolute inset-0 rounded-[40px] bg-gradient-to-br from-[#1e293b] to-[#0f172a] flex items-center justify-center">
-                <span className="font-['Young_Serif:Regular',sans-serif] text-[28px] text-white">DH</span>
+                <span className="font-['Young_Serif:Regular',sans-serif] text-[28px] text-white">TA</span>
               </div>
               <div aria-hidden className="absolute border-2 border-[#8b1a2b] border-solid inset-0 rounded-[40px]" />
             </div>
-            <p className="font-['Young_Serif:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[22px] text-white">Leland Lee Tilson</p>
+
+            <p className="font-['Young_Serif:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[22px] text-white">
+              Tracy A Vaughn
+            </p>
+
             <div className="bg-[rgba(139,26,43,0.08)] content-stretch flex items-start px-[10px] py-[4px] relative rounded-[999px] shrink-0">
               <div aria-hidden className="absolute border border-[rgba(139,26,43,0.2)] border-solid inset-0 pointer-events-none rounded-[999px]" />
-              <p className="font-['Geist:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#8b1a2b] text-[12px] uppercase">Premium Member</p>
+              <p className="font-['Geist:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#8b1a2b] text-[12px] uppercase">
+                Premium Member
+              </p>
             </div>
           </div>
 
           {/* Profile Info Card */}
           <div className="bg-[#0b1524] content-stretch flex flex-col gap-[12px] items-start p-[16px] relative rounded-[20px] shrink-0 w-full" style={{boxShadow: "0px 10px 24px 0px rgba(139,26,43,0.12), 0px 18px 40px 0px rgba(0,0,0,0.2)"}}>
             <div aria-hidden className="absolute border border-[rgba(255,255,255,0.08)] border-solid inset-0 pointer-events-none rounded-[20px]" />
+
             <div className="content-stretch flex items-center justify-between relative shrink-0 w-full">
-              <p className="font-['Young_Serif:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[15px] text-white">Profile Info</p>
+              <p className="font-['Young_Serif:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[15px] text-white">
+                Profile Info
+              </p>
+
               <div className="relative shrink-0 size-[16px]">
                 <svg className="absolute block inset-0 size-full" fill="none" height="16" viewBox="0 0 16 16" width="16">
                   <path d="M4 6L8 10L12 6" stroke="#94A3B8" strokeLinecap="round" strokeWidth="2" />
                 </svg>
               </div>
             </div>
+
             <div className="h-px relative shrink-0 w-full bg-[rgba(255,255,255,0.12)]" />
+
             <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-full">
-              <InfoRow label="Account Holders" value="Leland Lee Tilson" />
+              <InfoRow label="Account Holders" value="Tracy A Vaughn" />
               <InfoRow label="Account Type" value="Premium Checking" />
               <InfoRow label="Customer ID" value="BM-7829451" />
+
               <div className="content-stretch flex items-center justify-between relative shrink-0 w-full">
-                <p className="font-['Geist:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#94a3b8] text-[13px]">Status</p>
+                <p className="font-['Geist:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#94a3b8] text-[13px]">
+                  Status
+                </p>
+
                 <div className="bg-[rgba(21,128,61,0.07)] content-stretch flex items-start px-[8px] py-[2px] relative rounded-[4px] shrink-0">
-                  <p className="font-['Geist:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#15803d] text-[12px]">Active</p>
+                  <p className="font-['Geist:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#15803d] text-[12px]">
+                    Active
+                  </p>
                 </div>
               </div>
             </div>
@@ -121,15 +138,21 @@ export default function ProfileScreen({ navigate }: Props) {
           {/* Personal Info Card */}
           <div className="bg-[#0b1524] content-stretch flex flex-col gap-[12px] items-start p-[16px] relative rounded-[20px] shrink-0 w-full" style={{boxShadow: "0px 10px 24px 0px rgba(139,26,43,0.12), 0px 18px 40px 0px rgba(0,0,0,0.2)"}}>
             <div aria-hidden className="absolute border border-[rgba(255,255,255,0.08)] border-solid inset-0 pointer-events-none rounded-[20px]" />
+
             <div className="content-stretch flex items-center justify-between relative shrink-0 w-full">
-              <p className="font-['Young_Serif:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[15px] text-white">Personal Info</p>
+              <p className="font-['Young_Serif:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[15px] text-white">
+                Personal Info
+              </p>
+
               <div className="relative shrink-0 size-[16px]">
                 <svg className="absolute block inset-0 size-full" fill="none" height="16" viewBox="0 0 16 16" width="16">
                   <path d="M4 6L8 10L12 6" stroke="#94A3B8" strokeLinecap="round" strokeWidth="2" />
                 </svg>
               </div>
             </div>
+
             <div className="h-px relative shrink-0 w-full bg-[rgba(255,255,255,0.12)]" />
+
             <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-full">
               <InfoRow label="DOB" value="05/14/1984" />
               <InfoRow label="Phone" value="•••-•••-4523" />
@@ -140,34 +163,46 @@ export default function ProfileScreen({ navigate }: Props) {
           {/* Address Card */}
           <div className="bg-[#0b1524] content-stretch flex flex-col gap-[12px] items-start p-[16px] relative rounded-[20px] shrink-0 w-full" style={{boxShadow: "0px 10px 24px 0px rgba(139,26,43,0.12), 0px 18px 40px 0px rgba(0,0,0,0.2)"}}>
             <div aria-hidden className="absolute border border-[rgba(255,255,255,0.08)] border-solid inset-0 pointer-events-none rounded-[20px]" />
+
             <div className="content-stretch flex items-center justify-between relative shrink-0 w-full">
-              <p className="font-['Young_Serif:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[15px] text-white">Address</p>
+              <p className="font-['Young_Serif:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[15px] text-white">
+                Address
+              </p>
+
               <div className="relative shrink-0 size-[16px]">
                 <svg className="absolute block inset-0 size-full" fill="none" height="16" viewBox="0 0 16 16" width="16">
                   <path d="M4 6L8 10L12 6" stroke="#94A3B8" strokeLinecap="round" strokeWidth="2" />
                 </svg>
               </div>
             </div>
+
             <div className="h-px relative shrink-0 w-full bg-[rgba(255,255,255,0.12)]" />
+
             <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-full">
               <InfoRow label="Street" value="482 Brown Farm Rd" />
-<InfoRow label="City/State" value="Seneca" />
-<InfoRow label="Country" value="USA" />
+              <InfoRow label="City/State" value="Seneca" />
+              <InfoRow label="Country" value="USA" />
             </div>
           </div>
 
           {/* Security Settings Card */}
           <div className="bg-[#0b1524] content-stretch flex flex-col gap-[12px] items-start p-[16px] relative rounded-[20px] shrink-0 w-full" style={{boxShadow: "0px 10px 24px 0px rgba(139,26,43,0.12), 0px 18px 40px 0px rgba(0,0,0,0.2)"}}>
             <div aria-hidden className="absolute border border-[rgba(255,255,255,0.08)] border-solid inset-0 pointer-events-none rounded-[20px]" />
+
             <div className="content-stretch flex items-center justify-between relative shrink-0 w-full">
-              <p className="font-['Young_Serif:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[15px] text-white">Security Settings</p>
+              <p className="font-['Young_Serif:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[15px] text-white">
+                Security Settings
+              </p>
+
               <div className="relative shrink-0 size-[16px]">
                 <svg className="absolute block inset-0 size-full" fill="none" height="16" viewBox="0 0 16 16" width="16">
                   <path d="M4 6L8 10L12 6" stroke="#94A3B8" strokeLinecap="round" strokeWidth="2" />
                 </svg>
               </div>
             </div>
+
             <div className="h-px relative shrink-0 w-full bg-[rgba(255,255,255,0.12)]" />
+
             <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-full">
               <SecurityRow label="Password & 2FA" value="Configured" />
               <SecurityRow label="Biometric Login" value="Enabled" />
