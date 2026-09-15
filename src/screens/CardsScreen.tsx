@@ -46,12 +46,12 @@ export default function CardsScreen({ navigate }: Props) {
                 <div className="bg-[#ead182] h-[26px] opacity-80 relative rounded-[4px] shrink-0 w-[36px]" />
 
                 <p className="font-['Geist:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[11px] text-white uppercase tracking-[1px]">
-                  VISA
+                  Meta Bank
                 </p>
               </div>
 
               <p className="font-['Geist:SemiBold',sans-serif] font-semibold leading-[normal] relative shrink-0 text-[20px] text-white tracking-[2px]">
-                •••• •••• •••• 7834
+                •••• •••• •••• 7747
               </p>
 
               <div className="content-stretch flex items-start justify-between relative shrink-0 w-full">
@@ -61,7 +61,7 @@ export default function CardsScreen({ navigate }: Props) {
                   </p>
 
                   <p className="font-['Geist:SemiBold',sans-serif] font-semibold leading-[normal] relative shrink-0 text-[13px] text-white">
-                    Leland Lee Tilson
+                    Tracy A Vaughn
                   </p>
                 </div>
 
@@ -71,7 +71,7 @@ export default function CardsScreen({ navigate }: Props) {
                   </p>
 
                   <p className="font-['Geist:SemiBold',sans-serif] font-semibold relative shrink-0 text-[13px] text-white">
-                    09/28
+                    05/29
                   </p>
                 </div>
 
@@ -185,10 +185,10 @@ export default function CardsScreen({ navigate }: Props) {
             <div className="h-px relative shrink-0 w-full bg-[rgba(255,255,255,0.12)]" />
 
             {[
+              { label: "Card Name", value: "Meta Bank" },
               { label: "Card Type", value: "Visa Debit" },
-              { label: "Card Number", value: "•••• •••• •••• 7834" },
-              { label: "Expiry Date", value: "09/28" },
-              { label: "Billing Address", value: "482 Brown Farm Seneca" },
+              { label: "Card Number", value: "•••• •••• •••• 7747" },
+              { label: "Expiry Date", value: "05/29" },
               { label: "Daily Limit", value: "$5,000.00" },
               { label: "Monthly Spend", value: "$1,234.56" },
             ].map(({ label, value }) => (
