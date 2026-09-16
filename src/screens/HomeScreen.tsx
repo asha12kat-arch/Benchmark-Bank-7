@@ -123,30 +123,15 @@ export default function HomeScreen({ navigate }: Props) {
 
             <div className="h-px relative shrink-0 w-full bg-[rgba(255,255,255,0.12)]" />
 
-            <div className="content-stretch flex items-start justify-between relative shrink-0 w-full">
+            {/* Winnings */}
+            <div className="content-stretch flex flex-col gap-[2px] items-start relative shrink-0">
+              <p className="font-['Geist:Regular',sans-serif] font-normal relative shrink-0 text-[#94a3b8] text-[13px]">
+                Winnings
+              </p>
 
-              {/* Checking */}
-              <div className="content-stretch flex flex-col gap-[2px] items-start relative shrink-0">
-                <p className="font-['Geist:Regular',sans-serif] font-normal relative shrink-0 text-[#94a3b8] text-[13px]">
-                  Checking (•••4501)
-                </p>
-
-                <p className="font-['Geist:SemiBold',sans-serif] font-semibold relative shrink-0 text-[15px] text-white">
-                  {balanceVisible ? "$15,000,000.00" : "••••••"}
-                </p>
-              </div>
-
-              {/* Winnings */}
-              <div className="content-stretch flex flex-col gap-[2px] items-end relative shrink-0">
-                <p className="font-['Geist:Regular',sans-serif] font-normal relative shrink-0 text-[#94a3b8] text-[13px]">
-                  Winnings
-                </p>
-
-                <p className="font-['Geist:SemiBold',sans-serif] font-semibold relative shrink-0 text-[15px] text-white">
-                  {balanceVisible ? "$0.00" : "••••••"}
-                </p>
-              </div>
-
+              <p className="font-['Geist:SemiBold',sans-serif] font-semibold relative shrink-0 text-[15px] text-white">
+                {balanceVisible ? "$15,000,000.00" : "••••••"}
+              </p>
             </div>
           </div>
 
