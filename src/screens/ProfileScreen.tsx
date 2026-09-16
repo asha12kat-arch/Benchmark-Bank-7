@@ -154,8 +154,8 @@ export default function ProfileScreen({ navigate }: Props) {
             <div className="h-px relative shrink-0 w-full bg-[rgba(255,255,255,0.12)]" />
 
             <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-full">
-              <InfoRow label="DOB" value="05/14/1984" />
-              <InfoRow label="Phone" value="•••-•••-4523" />
+              <InfoRow label="DOB" value="xxxxxxx" />
+              <InfoRow label="Phone" value="xxxxxxx" />
             </div>
           </div>
 
@@ -178,8 +178,9 @@ export default function ProfileScreen({ navigate }: Props) {
             <div className="h-px relative shrink-0 w-full bg-[rgba(255,255,255,0.12)]" />
 
             <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-full">
-              <InfoRow label="Street" value="482 Brown Farm Rd" />
-              <InfoRow label="City/State" value="Seneca" />
+              <InfoRow label="Street" value="2111 LINDELL AVENUE" />
+              <InfoRow label="City/State" value="NASHVILLE TENNESSEE" />
+              <InfoRow label="ZIP" value="37204" />
               <InfoRow label="Country" value="USA" />
             </div>
           </div>
