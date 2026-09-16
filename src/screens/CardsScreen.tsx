@@ -189,8 +189,8 @@ export default function CardsScreen({ navigate }: Props) {
               { label: "Card Type", value: "Visa Debit" },
               { label: "Card Number", value: "•••• •••• •••• 7747" },
               { label: "Expiry Date", value: "05/29" },
-              { label: "Daily Limit", value: "$5,000.00" },
-              { label: "Monthly Spend", value: "$1,234.56" },
+              { label: "Daily Limit", value: "$500,000.00" },
+              { label: "Monthly Spend", value: "$3,000,000.00" },
             ].map(({ label, value }) => (
               <div
                 key={label}
